@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+    <title>Menu | Bryan's Café</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+    <header>
+      <nav>
+        <a href="index.html" class="logo"
+          ><span class="logo-bold">Bryan</span> Café</a
+        >
+        <ul class="nav-links">
+          <li><a href="index.html">About</a></li>
+          <li><a href="Menu.html">Menu</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <button class="burger-menu" onclick="toggleMenu()">&#9776;</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="menu-section">
+        <h2>Menu</h2>
+        <div id="menu-container"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p id="footer-text"></p>
+      <script src="scripts/year.js"></script>
+    </footer>
+
+    <script src="scripts/menu.js"></script>
+</div>
+  </body>
+</html>

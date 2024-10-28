@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <meals>
+        <meal>
+            <name>Beetroot and feta salad</name>
+            <price>$15.00</price>
+            <description>Suitable for vegetarians, made with fresh beetroot</description>
+            <image>images/beetroot_feta_salad.jpg</image>
+        </meal>
+        <meal>
+            <name>Sourdough Rye Sandwich</name>
+            <price>$18.00</price>
+            <description>Cheese and salad sandwich made with organic, sourdough rye bread</description>
+            <image>images/sourdough_rye_sandwich.jpg</image>
+        </meal>
+        <meal>
+            <name>Spinach Pie and Salad</name>
+            <price>$20.00</price>
+            <description>Tasty pie with salad</description>
+            <image>images/spinach_pie_salad.jpg</image>
+        </meal>
+        <meal>
+            <name>Feta pancakes with salad</name>
+            <price>$19.50</price>
+            <description>Tasty pancake filled with feta and salad</description>
+            <image>images/feta_pancakes_salad.jpg</image>
+        </meal>
+    </meals>
+    <beverages>
+        <beverage>
+            <name>Coffee</name>
+            <size>Small</size>
+            <price>$3.50</price>
+            <description>For coffee, please inform the staff of the coffee type.</description>
+            <image>images/coffee_small.jpg</image>
+        </beverage>
+        <beverage>
+            <name>Coffee</name>
+            <size>Regular</size>
+            <price>$4.00</price>
+            <description>For coffee, please inform the staff of the coffee type.</description>
+            <image>images/coffe_regular.jpg</image>
+        </beverage>
+        <beverage>
+            <name>Coffee</name>
+            <size>Large</size>
+            <price>$4.50</price>
+            <description>For coffee, please inform the staff of the coffee type.</description>
+            <image>images/coffee_large.jpg</image>
+        </beverage>
+    </beverages>
+    <other_beverages>
+        <other_beverage>
+            <name>Soda</name>
+            <price>$3.00</price>
+            <image>images/soda.jpg</image>
+        </other_beverage>
+        <other_beverage>
+            <name>Fresh juice</name>
+            <price>$6.00</price>
+            <image>images/fresh_juice.jpg</image>
+        </other_beverage>
+        <other_beverage>
+            <name>Bottled water</name>
+            <price>$2.00</price>
+            <image>images/bottled_water.jpg</image>
+        </other_beverage>
+    </other_beverages>
+</menu>
