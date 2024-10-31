@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy | Bryan's Café</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <a href="index.html" class="logo"
+            ><span class="logo-bold">Bryan</span> Café</a
+          >
+          <ul class="nav-links">
+            <li><a href="index.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <button class="burger-menu" onclick="toggleMenu()">&#9776;</button>
+        </nav>
+      </header>
+
+      <main>
+        <section class="privacy-policy-section">
+          <h2>Privacy Policy</h2>
+          <p>
+            At Bryan’s Café, we respect your privacy and are committed to
+            protecting the personal information you share with us.
+          </p>
+          <h3>Information We Collect</h3>
+          <p>
+            This website may collect personal information from users who
+            complete the enquiry form, including names, emails, and messages.
+          </p>
+          <h3>How We Use Your Information</h3>
+          <p>
+            We use this information solely to respond to your enquiries and
+            improve our services.
+          </p>
+          <h3>Contact Us</h3>
+          <p>
+            If you have any questions regarding our privacy policy, please
+            contact us at <a href="contact.html">our contact page</a>.
+          </p>
+        </section>
+      </main>
+
+      <footer>
+        <p id="footer-text"></p>
+        <script src="scripts/year.js"></script>
+      </footer>
+      <script>
+        document.getElementById(
+          "footer-text"
+        ).innerHTML = `©${new Date().getFullYear()} Bryan's Café`;
+      </script>
+    </div>
+  </body>
+</html>
