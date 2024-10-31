@@ -27,6 +27,8 @@
         </meal>
     </meals>
     <beverages>
+    <coffee_and_hot_chocolates>
+    
         <beverage>
             <name>Coffee</name>
             <size>Small</size>
@@ -48,6 +50,7 @@
             <description>For coffee, please inform the staff of the coffee type.</description>
             <image>images/coffee_large.jpg</image>
         </beverage>
+    </coffee_and_hot_chocolates>
     </beverages>
     <other_beverages>
         <other_beverage>
